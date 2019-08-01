@@ -49,17 +49,80 @@
 
   /* Styling for navbar stops here */
 
-  #profilePhoto{
+  #profilePhoto {
     display: flex;
     max-width: 150px;
     max-height: 150px;
   }
 
-  #myName{
+  #myName {
     display: inline-flex;
     font-size: 50px;
     height: 100px;
     padding-top: 50px;
     padding-left: 25px;
     justify-content: center;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-left: 20px;
+    margin-right: 20px;   
+  }
+
+  .contentCard {
+    border: 3px solid black;
+    padding: 50px 50px 50px 50px;
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+    justify-content: center;
+  }
+
+  .contentCard .image{
+    display: flex;
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  /* .contentCard .contentInfo{
+    font-size: 15px;
+    float:left;
+    width: 500px;
+    height: auto;
+  } */
+
+  #contentTitleOdd {
+    display: flex;
+    justify-content: center;
+
+  }
+  #contentImageOdd {
+    float: right;
+  }
+
+  #contentInfoOdd {
+    font-size: 15px;
+    float:left;
+    width: 500px;
+    height: auto;
+    text-align: left;
+  }
+
+  #contentTitleEven {
+    display: flex;
+    justify-content: center;
+
+  }
+  #contentImageEven {
+    float: left;
+  }
+
+  #contentInfoEven {
+    font-size: 15px;
+    float: right;
+    width: 500px;
+    height: auto;
+    text-align: right;
   }
