@@ -47,3 +47,17 @@
   } 
 
   /* Styling for navbar stops here */
+
+  #profilePhoto{
+    display: inline-flex;
+    width: 100px;
+    height: auto;
+    margin-top:10px;
+  }
+
+  #myName{
+    display: inline-flex;
+    font-size: 50px;
+    height: 100px;
+    margin-top:10px;
+  }
