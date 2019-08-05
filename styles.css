@@ -4,7 +4,8 @@
     font-size: 28px;
     font-family: sans-serif;
     max-width: 100%;
-    background-color: #eaebeb;
+    /* background-color: #eaebeb; */
+    background-color:#fcfcfc;
   }
   
   .header {
@@ -76,10 +77,65 @@
   } 
 
   /* Styling for navbar stops here */
-
-  #profileLogo {
+  /* contact info section starts here */
+  .profile {
     display: flex;
+    flex-wrap: wrap;
+    float: left;
+    width: 200px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 50px;
+    border-right: 2px solid #620d63;
+
   }
+
+  .profile #profilePic {
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-left: 50px;
+  }
+
+  #phone {
+    width: 20px;
+    height: auto;
+    justify-content: center;
+    justify-items: center;
+    padding-right: 15px;
+  }
+  
+  #email {
+    width: 20px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-right: 15px;
+  }
+
+  .profile p {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+
+  @media only screen and (max-width: 500px){
+    .profile{
+      display: none;
+    }
+  }
+
+  /* contact info section ends here */
+  
+
+  /* #profileLogo {
+    display: flex;
+  } */
 
   
 /* Looking at this stuff starting here */
