@@ -87,6 +87,7 @@
     padding-left: 10px;
     padding-right: 50px;
     padding-top: 50px;
+    margin-top: 25px; /*might have to remove this line */
     border-right: 2px solid #620d63;
 
   }
@@ -118,10 +119,26 @@
   }
 
   .profile p {
-    display: flex;
+    /* display: flex; */
     display: flex;
     justify-content: center;
     align-items: center;  
+  }
+
+  .profile a {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #aeb1b2;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: #aeb1b2;
+    color: #620d63;
+    text-decoration: none;
+    
   }
 
   @media only screen and (max-width: 500px){
