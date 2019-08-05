@@ -15,6 +15,22 @@
     justify-content: center;
     max-width: 100%;
   }
+
+  .header img {
+    max-width: 150px;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header strong {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 35px; /*fix this for mobile. Font size should be 50 and change @media to 40px*/
+    color: #620d63;
+  }
+  
   /* Styling for the header stops here */
  /* Styling for navbar starts here */
  
@@ -65,24 +81,7 @@
     display: flex;
   }
 
-  .logo img {
-    max-width: 150px;
-    height: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  #myName {
-    display: inline-flex;
-    font-size: 40px;
-    height: 100px;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    /* padding-left: 5px;
-    padding-right: 5px; */
-    justify-content: center;
-    color: #620d63;
-  }
+  
 /* Looking at this stuff starting here */
   .content {
     display: flex;
