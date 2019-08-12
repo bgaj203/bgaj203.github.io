@@ -1,0 +1,14 @@
+.contactInfo {
+    margin: 0;
+    max-width: 100;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #d6d7d8;
+}
+
+.icon {
+    max-width: 50px;
+    max-height: 50px;
+    padding: 10px 10px 10px 10px;
+}
