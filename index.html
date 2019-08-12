@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basitha Gamage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="headder.css"/>
     <script defer src="animations.js"></script>
     <script defer src="functions.js"></script>
     <script type="text/javascript" src="journey.json"></script>
@@ -22,29 +24,26 @@
             <a href="#myInterests">My Interests</a>
     </div> 
 
-    <!-- <div class="profile">
-        <img id="profilePic" src="images/IMG_3012.jpg"> <br>
-        <p><img id="phone" src="icons/smartphone.svg"> (+64)211399603</p> <br>
-        <p><img id="email" src="icons/email.svg">  ggbmadushan@gmail.com</p>
-        <strong>I am interested in</strong>
-        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
-            the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
-            1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
-            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            Why do we use it?
-        </p>
-        <a href="documents/BasiGamageResume.pdf" download="BasiGamageResume.pdf"> Download My CV</a>
+    <!-- Mobile nav bar -->
+    <div class="mobile-container" id="mobileNav">
 
-
-    </div> -->
-
-    <!-- Want to have this stuff centered -->
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <a href="#home" class="active">Logo</a>
+          <div id="myLinks">
+            <a href="#news">About Me</a>
+            <a href="#contact">My Experience</a>
+            <a href="#about">My Interests</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="mobileNavigation()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    </div>
 
     <div class="content" id="aboutMe">
         
-        <div class="contentCard">
+        <div class="card">
             <strong class="contentTitle" id="contentTitleOdd">My Journey</strong>
             
             <div class="image" id="contentImageOdd">
@@ -53,19 +52,15 @@
             
             <div id="contentInfoOdd">
                 <p>
-                    I was only 19 years old when I moved to New Zealand in a pursuit of a fuller life. 
-                    Just like any other international student, I completed my education in 2013 and 
-                    entered the New Zealand workforce. During my studies, I did a few different part-time 
-                    jobs to prove myself that I can handle any form of work( can be rewritten , 
-                    maybe something like While studying , I worked a range of part time jobs to gain experience , 
-                    something along those lines ). These jobs were fun and entertaining, plus paid the bills. 
-                    Entering the New Zealand workforce as an Estimator and designer I soon realised there are 
-                    some gaps between what is taught and what happens in the industry was a huge eye-opener. 
-                    So, I jumped into the deep end and learnt everything there is to learn (re write this sentence, 
-                    something like I immersed myself within the industry and the work gaining new skills that 
-                    I progressed from …. something along those lines) . Within the first two and a half years,
-                     I rose into the position of ( actual position name ?)management and had my own 
-                     assistant working for me and learning from me. This is when I had my big realising moment.
+                    I was only 19 years old when I moved to New Zealand in the pursuit of a fuller 
+                    life. While studying, I worked a range of part-time jobs to gain experience. 
+                    These jobs were fun and entertaining, plus paid the bills. Entering the workforce 
+                    as an Estimator and designer, I soon realised there are some gaps between what 
+                    is taught and what happens in the industry. So, I immersed myself within the 
+                    industry and the work to gain the skill I need to progress. Within the first 
+                    two and a half years, I rose into the position of senior estimator and designer 
+                    and had my own assistant working for me and learning from me. This was when I 
+                    had my <b>big realisation</b>.
                 </p>
             </div>    
         </div>
@@ -79,17 +74,14 @@
             
             <div id="contentInfoOdd">
                 <p>
-                    When I started working as a manager, I came to realise I had more to offer in the 
-                    New Zealand workforce and that I do not fit well into the industry I was in.
-                    ( I came to realise that if I was the spend my time and dedicate myself to an industry, 
-                    I would rather immerse myself into technology, a long time passion of mine , that I was 
-                    passionate about since I was young ) I am more passionate about technology and how things 
-                    come together. I have spent most of my free time learning about programming languages and 
-                    how AI, ML, and advances in modern computing have influenced our daily lives as individuals 
-                    and corporations. I thought to myself, “Hey, why don’t I learn more about this and start 
-                    working in the tech industry. I know I will fit perfectly into the industry. After all, 
-                    this will not be just a career. It is me combining my passion projects and converting it 
-                    into a career.” So now comes the new beginning.
+                    When I started managing people, I came to realise that if I am to dedicate myself 
+                    to an industry, I would instead immerse myself in the tech industry. This is 
+                    something I was passionate about since I was a kid. I have spent most of my free 
+                    time learning about programming languages and how AI, ML, and advances in modern 
+                    computing have influenced our daily lives. I thought to myself, “Hey, why don’t I 
+                    learn more about this and start working in the tech industry. I know I will fit 
+                    perfectly into the industry, and it will be the perfect career for me. So now comes 
+                    <b>the new beginning</b>.
                 </p>
             </div>    
         </div>
@@ -104,12 +96,13 @@
             <div id="contentInfoOdd">
                 <p>
                     In 2017 I had a plan. I had the burning desire to go back to studies. So, I had a 
-                    chat with my manager. He was very understanding, and I got his full support. 
-                    I handed in my 8 weeks’ notice and enrolled at the University of Auckland to do a 
-                    Bachelors’ degree in Computer Science and Information Systems. I haven’t looked back since.
+                    chat with my manager. He was very understanding, and I got his full support. I 
+                    handed in my 8 weeks’ notice and enrolled at the University of Auckland to do a 
+                    Bachelors’ degree in Computer Science and Information Systems. I haven’t looked 
+                    back since.
                 </p>
                 <p>
-                    Living independently taught me many things, and these lessons helped me construct My Values.
+                    Living independently taught me many things, and these lessons helped me construct <b>my Values</b>.
                 </p>
             </div>    
         </div>

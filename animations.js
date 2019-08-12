@@ -4,6 +4,7 @@ window.onscroll = function() {stickyNaveBar()};
 
 // Get the navbar
 var navbar = document.getElementById("navbar");
+var mobileNavbar = document.getElementById("mobileNav");
 
 // Get the offset position of the navbar
 var sticky = navbar.offsetTop;
@@ -12,9 +13,11 @@ var sticky = navbar.offsetTop;
 //scroll position. Remove "sticky" when you leave the scroll position
 function stickyNaveBar() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+    navbar.classList.add("sticky");
+    mobileNavbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
+    mobileNavbar.classList.remove("sticky");
   }
 } 
 
