@@ -10,213 +10,72 @@
     <script defer src="functions.js"></script>
     <script type="text/javascript" src="journey.json"></script>
 </head>
-<body onload="main()">
+<body>
     <div class="header">
         <img src="images/Logo2.png"/>
         <strong #id="myName">Basitha Gamage</strong>
     </div>
 
     <div id="navbar">
-            <a href="#Journey" onclick="loadAboutMe()">About Me</a>
-            <a href="#Experience" onclick="loadMyExperience()">My Experience</a>
-            <a href="#Life" onclick="loadLifeAway()">Life Outside</a>
+            <a href="#Journey" onclick="readFile()">My Journey</a>
+            <a href="#Experience">My Experience</a>
+            <a href="#Life">Life Outside</a>
     </div> 
 
     <div class="profile">
-        <div>
-            <img id="profilePic" src="images/IMG_3012.jpg"> <br>
-            <p><img id="phone" src="icons/smartphone.svg">(+64)211399603</p>
-            <p><img id="email" src="icons/email.svg">ggbmadushan@gmail.com</p>
-            <p>I am interested in an internship or a graduate role in web development 
-                or in automation consulting
-            </p>
-        </div>
-        
-        <div>
-            <a class="socialMedia" href="#linkedIn"><img src="icons/linkedin.png"/></a>
-            <a class="socialMedia" href="#gitHub"><img src="icons/github.png"/></a>
-            <a class="socialMedia" href="#instagram"><img src="icons/instagram.png"/></a>
-        </div>
-        <div>
-            <a class="myCV" href="documents/BasiGamageResume.pdf" download="BasiGamageResume.pdf"> Download My CV</a>
-        </div>
-        
-        
-        
+        <img id="profilePic" src="images/IMG_3012.jpg"> <br>
+        <p><img id="phone" src="icons/smartphone.svg"> (+64)211399603</p> <br>
+        <p><img id="email" src="icons/email.svg">  ggbmadushan@gmail.com</p>
+        <strong>I am interested in</strong>
+        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+            the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
+            1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
+            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Why do we use it?
+        </p>
+        <a href="documents/BasiGamageResume.pdf" download="BasiGamageResume.pdf"> Download My CV</a>
+
+
     </div>
 
-    <div class="wrapper">
+    <!-- Want to have this stuff centered -->
 
+    <div class="content" id="myJourney">
 
-        <!-- <div class="profile">
-            <div>
-                <img id="profilePic" src="images/IMG_3012.jpg"> <br>
-                <p><img id="phone" src="icons/smartphone.svg">(+64)211399603</p>
-                <p><img id="email" src="icons/email.svg">ggbmadushan@gmail.com</p>
-                <p>I am interested in an internship or a graduate role in web development 
-                    or in automation consulting
-                </p>
+        <!-- Want to have the stuff in the content card to be centred and image to be right aligned 
+        and the description to be left aligned  -->
+        
+        <div class="contentCard">
+            <strong class="contentTitle" id="contentTitleOdd">Start of a New Journey</strong>
+            
+            <div class="image" id="contentImageOdd">
+                <img src="images/IMG_3156.jpg"/>
             </div>
             
-            <div>
-                <a class="socialMedia" href="#linkedIn"><img src="icons/linkedin.png"/></a>
-                <a class="socialMedia" href="#gitHub"><img src="icons/github.png"/></a>
-                <a class="socialMedia" href="#instagram"><img src="icons/instagram.png"/></a>
-            </div>
-            <div>
-                <a class="myCV" href="documents/BasiGamageResume.pdf" download="BasiGamageResume.pdf"> Download My CV</a>
-            </div>                      
-        </div> -->
-
-        <!-- Want to have this stuff centered -->
-
-        <div class="content" id="aboutMe">
-
-            <!-- Want to have the stuff in the content card to be centred and image to be right aligned 
-            and the description to be left aligned  -->
-            
-            <div class="contentCard">
-                <strong class="contentTitle" id="contentTitleOdd">My Journey</strong>
-                
-                <div class="contentInfo">
-                    <img class="image" id="contentImage" src="images/IMG_3156.jpg"/>
-                    <p id="contentInfoDescription">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
-                        the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
-                        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
-                        desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Why do we use it?
-                        
-                        It is a long established fact that a reader will be distracted by the readable content of a page 
-                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like 
-                        readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as 
-                        their default model text, and a search for 'lorem ipsum' will uncover many web sites still in 
-                        their infancy. Various versions have evolved over the years, sometimes by accident, sometimes 
-                        on purpose (injected humour and the like).
-                    </p>
-
-                </div>
-                
-            </div>
-
-            <div class="contentCard">
-                <strong class="contentTitle" id="contentTitleOdd">Start of a New Journey</strong>
-                
-                <div class="contentInfo">
-                    <img class="image" id="contentImage" src="images/IMG_3156.jpg"/>
-                    <p id="contentInfoDescription">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
-                        the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
-                        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
-                        desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Why do we use it?
-                        
-                        It is a long established fact that a reader will be distracted by the readable content of a page 
-                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like 
-                        readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as 
-                        their default model text, and a search for 'lorem ipsum' will uncover many web sites still in 
-                        their infancy. Various versions have evolved over the years, sometimes by accident, sometimes 
-                        on purpose (injected humour and the like).
-                    </p>
-                </div>                    
-            </div>
-
-            <div class="myValues">
+            <div id="contentInfoOdd">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                     and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+                     the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
+                     1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
+                     desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Why do we use it?
                     
-                    <p>
-                        <strong>---My Values---</strong><br>
-                        Consitancy <br>
-                        Perciverance <br>
-                        hard work <br>
-                        creativity <br>
-                    </p> 
-
-                
-            </div>
-
-        
+                    It is a long established fact that a reader will be distracted by the readable content of a page 
+                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like 
+                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as 
+                    their default model text, and a search for 'lorem ipsum' will uncover many web sites still in 
+                    their infancy. Various versions have evolved over the years, sometimes by accident, sometimes 
+                    on purpose (injected humour and the like).
+                </p>
+            </div>    
         </div>
-
-
-        <!--  My Experience Tab-->
-        <div class="content" id="myExperience">
-
-            <!-- Want to have the stuff in the content card to be centred and image to be right aligned 
-            and the description to be left aligned  -->
-            
-            <div class="contentCard">
-                <strong class="contentTitle" id="contentTitleOdd">My Experience</strong>
-                
-                <div class="contentInfo">
-                    <img class="image" id="contentImage" src="images/IMG_3156.jpg"/>
-                    <p id="contentInfoDescription">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
-                        the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
-                        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
-                        desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Why do we use it?
-                        
-                        It is a long established fact that a reader will be distracted by the readable content of a page 
-                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like 
-                        readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as 
-                        their default model text, and a search for 'lorem ipsum' will uncover many web sites still in 
-                        their infancy. Various versions have evolved over the years, sometimes by accident, sometimes 
-                        on purpose (injected humour and the like).
-                    </p>
-
-                </div>
-                
-            </div>
-        
-        </div>
-
-        <!-- Life Away -->
-        <div class="content" id="lifeAway">
-
-            <!-- Want to have the stuff in the content card to be centred and image to be right aligned 
-            and the description to be left aligned  -->
-            
-            <div class="contentCard">
-                <strong class="contentTitle" id="contentTitleOdd">Life Away is FUN</strong>
-                
-                <div class="contentInfo">
-                    <img class="image" id="contentImage" src="images/IMG_3156.jpg"/>
-                    <p id="contentInfoDescription">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
-                        the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
-                        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
-                        desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Why do we use it?
-                        
-                        It is a long established fact that a reader will be distracted by the readable content of a page 
-                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like 
-                        readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as 
-                        their default model text, and a search for 'lorem ipsum' will uncover many web sites still in 
-                        their infancy. Various versions have evolved over the years, sometimes by accident, sometimes 
-                        on purpose (injected humour and the like).
-                    </p>
-
-                </div>
-                
-            </div>
-        
-        </div>
+       
     </div>
-
-
-
     
 </body>
 </html>
