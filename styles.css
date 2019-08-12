@@ -78,7 +78,7 @@
 
   /* Styling for navbar stops here */
   /* contact info section starts here */
-  .profile {
+  /* .profile {
     display: flex;
     flex-wrap: wrap;
     float: left;
@@ -118,7 +118,6 @@
   }
 
   .profile p {
-    /* display: flex; */
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -144,7 +143,7 @@
     .profile{
       display: none;
     }
-  }
+  } */
 
   /* contact info section ends here */
   
@@ -177,23 +176,17 @@
   }
 
   .image img{
-    width: 500px;
+    width: 250px;
     height: auto;
     max-width: 100%;
     max-height: auto;
     margin: 10px;
   }
 
-  /* .contentCard .contentInfo{
-    font-size: 15px;
-    float:left;
-    width: 500px;
-    height: auto;
-  } */
-
   #contentTitleOdd {
     display: flex;
     justify-content: center;
+    font-size: 30px;
 
   }
   #contentImageOdd {
@@ -211,21 +204,15 @@
   }
 /* And finishing here */
 
-  #contentTitleEven {
-    display: flex;
-    justify-content: center;
+/* my values start here */
+.myValues {
+  font-size: 15px;
+  float:left;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-  }
-  #contentImageEven {
-    float: left;
-  }
-
-  #contentInfoEven {
-    font-size: 15px;
-    float: right;
-    width: 500px;
-    height: auto;
-    text-align: justify;
-    max-width: 100%;
-    max-height: auto;
-  }
+#myValuesContent {
+  font-size: 20px;
+}
