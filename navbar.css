@@ -52,7 +52,7 @@
     width: 100%;
 }
 
-.sticky + .wrapperAboutMe {
+.sticky + .wrapperHome {
     padding-top: 60px;
 }
 
