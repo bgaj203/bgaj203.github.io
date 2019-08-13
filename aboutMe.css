@@ -13,7 +13,7 @@
     margin-left: 3.1%;
     margin-right: 3.1%;
     margin-bottom: 30px;
-    padding: 1% 1%  1%  1% ;
+    padding: 10px 10px 10px 10px;
     box-shadow: 0 1px 10px 1px;
 }
 
@@ -22,6 +22,8 @@
     max-width: 300px;
     max-height: 250px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .aboutMeData {
@@ -29,6 +31,9 @@
     max-width: 125px;
     height: auto;
     font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 2% 2% 2% 2%;
 }
 
 .myValues {
@@ -39,6 +44,6 @@
     margin-left: 3.1%;
     margin-right: 3.1%;
     margin-bottom: 30px;
-    padding: 1% 1%  1%  1% ;
+    padding: 10px 10px 10px 10px;
     box-shadow: 0 1px 10px 1px;
 }
