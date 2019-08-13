@@ -1,0 +1,36 @@
+.wrapperHome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+.homeCard {
+    display: block;
+    justify-content: center;
+    max-width: 400px;
+    margin-bottom: 30px;
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 1px 10px 1px;
+}
+
+.homeImage{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.homeImage img{
+    max-width: 300px;
+    max-height: 250px;
+}
+
+.homePageHeading {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

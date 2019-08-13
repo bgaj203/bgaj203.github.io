@@ -10,6 +10,7 @@ body {
 .header {
   display: flex;
   flex-wrap: wrap;
+  /* background-image: linear-gradient(to right, purple, white); */
   background-color: #d6d7d8;
   padding: 30px;
   justify-content: center;
