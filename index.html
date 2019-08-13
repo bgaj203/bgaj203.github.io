@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css"/>
     <link rel="stylesheet" type="text/css" href="headder.css"/>
+    <link rel="stylesheet" type="text/css" href="navbar.css"/>
     <link rel="stylesheet" type="text/css" href="aboutMe.css"/>
     <link rel="stylesheet" type="text/css" href="contactInfo.css"/>
     <script defer src="animations.js"></script>
@@ -20,28 +21,23 @@
         <strong #id="myName">Basitha Gamage</strong>
     </div>
 
-    <div id="navbar">
-            <a href="#aboutMe" onclick="readFile()">About Me</a>
-            <a href="#myExperience">My Experience</a>
-            <a href="#myInterests">My Interests</a>
-    </div> 
-
-    <!-- Mobile nav bar -->
-    <div class="mobile-container" id="mobileNav">
-
-        <!-- Top Navigation Menu -->
-        <div class="topnav">
-          <a href="#home" class="active">Logo</a>
-          <div id="myLinks">
-            <a href="#news">About Me</a>
-            <a href="#contact">My Experience</a>
-            <a href="#about">My Interests</a>
-          </div>
-          <a href="javascript:void(0);" class="icon" onclick="mobileNavigation()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
-    </div>
+    <nav class="navbar" id="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <a href="#" class="logo"><img src="images/Logo2.png"/></a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="#" class="nav-links">About Me</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Experience</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Interests</a>
+            </li>
+        </ul>
+    </nav>
 
     <!-- About me -->
     <div class="wrapperAboutMe">
