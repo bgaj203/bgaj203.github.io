@@ -47,6 +47,8 @@
     }
 }
 
+/* mobile styling */
+
 @media screen and (max-width: 1000px) {
     .wrapperHome {
         display: flex;
