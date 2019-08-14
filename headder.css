@@ -1,12 +1,3 @@
-body {
-  margin: 0;
-  font-size: 15px;
-  font-family: sans-serif;
-  max-width: 100%;
-  /* background-color: #eaebeb; */
-  background-color:#fcfcfc;
-}
-
 .header {
   display: flex;
   flex-wrap: wrap;

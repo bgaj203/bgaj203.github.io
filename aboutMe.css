@@ -1,49 +1,109 @@
-.wrapperAboutMe {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px 10px 10px 10px;
-    padding: 5px 5px 5px 5px;
+@media screen and (min-width: 1000px){
+    .wrapperAboutMe {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 30px;
+    }
+    
+    .pageHeading {
+        font-size: 50px;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .aboutMeCard {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        border: 2px solid black;
+    }
+    
+    .contentTitle {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .aboutMeImage{
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 100%;
+        justify-content: center;
+    }
+    
+    .aboutMeImage img{
+        max-width: 600px;
+        max-height: 600px;
+        margin: 50px 50px;
+    }
+    
+    .aboutMeData {
+        display: block;
+        max-height: 100%;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 50px;
+        font-size: 15px;
+    }
 }
 
-.aboutMeCard {
-    display: block;
-    justify-content: center;
-    max-width: 400px;
-    margin-left: 3.1%;
-    margin-right: 3.1%;
-    margin-bottom: 30px;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0 1px 10px 1px;
+
+@media screen and (max-width: 1000px){
+    .wrapperAboutMe {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px 10px 10px 10px;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    .aboutMeCard {
+        display: block;
+        justify-content: center;
+        max-width: 400px;
+        margin-left: 3.1%;
+        margin-right: 3.1%;
+        margin-bottom: 30px;
+        padding: 10px 10px 10px 10px;
+        box-shadow: 0 1px 10px 1px;
+    }
+    
+    .aboutMeImage img{
+        display: flex;
+        max-width: 300px;
+        max-height: 250px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .aboutMeData {
+        display: flex;
+        max-width: 300px;
+        height: auto;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 2% 2% 2% 2%;
+    }
+    
+    .myValues {
+        display: block;
+        justify-content: center;
+        text-align: left;
+        max-width: 90%;
+        margin-left: 3.1%;
+        margin-right: 3.1%;
+        margin-bottom: 30px;
+        padding: 10px 10px 10px 10px;
+        box-shadow: 0 1px 10px 1px;
+    }
 }
 
-.aboutMeImage img{
-    display: flex;
-    max-width: 300px;
-    max-height: 250px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.aboutMeData {
-    display: flex;
-    max-width: 125px;
-    height: auto;
-    font-size: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 2% 2% 2% 2%;
-}
-
-.myValues {
-    display: block;
-    justify-content: center;
-    text-align: left;
-    max-width: 90%;
-    margin-left: 3.1%;
-    margin-right: 3.1%;
-    margin-bottom: 30px;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0 1px 10px 1px;
-}
