@@ -20,11 +20,11 @@
     .aboutMeCard {
         display: flex;
         justify-content: center;
-        min-width: 1000px;
+        min-width: 100%;
         min-height: auto;
         margin: 50px 50px;
         padding: 25px 25px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
     }
 
     .contentTitleDesktop {
