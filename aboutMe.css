@@ -6,9 +6,9 @@
         max-width: 90%;
         margin-left: auto;
         margin-right: auto;
-        padding: 30px 30px;
+        /* padding: 2% 2%; */
     }
-    
+
     .pageHeading {
         font-size: 50px;
         text-align: center;
@@ -16,41 +16,51 @@
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    
+
     .aboutMeCard {
         display: flex;
         justify-content: center;
-        max-width: 100%;
+        min-width: 1000px;
+        min-height: 500px;
+        margin: 50px 50px;
+        padding: 25px 25px;
         border: 2px solid black;
     }
-    
-    .contentTitle {
+
+    .contentTitleDesktop {
+        font-size: 30px;
         width: 100%;
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
     }
-    .aboutMeImage{
+
+    .contentTitle {
+        display: none;
+        
+    }
+
+    .aboutMeImage {
         display: flex;
-        flex-wrap: wrap;
         max-height: 100%;
         justify-content: center;
     }
-    
-    .aboutMeImage img{
-        max-width: 600px;
-        max-height: 600px;
+
+    .aboutMeImage img {
+        max-width: 100%;
+        max-height: 100%;
         margin: 50px 50px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
-    
+
     .aboutMeData {
-        display: block;
+        display: inline;
         max-height: 100%;
         justify-content: center;
         margin-top: auto;
         margin-bottom: auto;
         margin-right: 50px;
-        font-size: 15px;
     }
 }
 
@@ -67,14 +77,26 @@
     .aboutMeCard {
         display: block;
         justify-content: center;
-        max-width: 400px;
+        width: 400px;
         margin-left: 3.1%;
         margin-right: 3.1%;
         margin-bottom: 30px;
         padding: 10px 10px 10px 10px;
         box-shadow: 0 1px 10px 1px;
     }
-    
+
+    .contentTitleDesktop {
+        display: none;
+    }
+
+    .contentTitle {
+        font-size: 25px;
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+
     .aboutMeImage img{
         display: flex;
         max-width: 300px;
