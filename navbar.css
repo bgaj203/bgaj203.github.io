@@ -56,6 +56,14 @@
     padding-top: 60px;
 }
 
+.sticky + .wrapperAboutMe {
+    padding-top: 60px;
+}
+
+.sticky + .wrapperMyInterests {
+    padding-top: 60px;
+}
+
 @media screen and (min-width: 768px) {
     .navbar {
         display: flex;
