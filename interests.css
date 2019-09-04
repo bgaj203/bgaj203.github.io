@@ -1,0 +1,92 @@
+/* mobile styling */
+
+@media screen and (max-width: 1000px){
+    .wrapperMyInterests{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px 10px 10px 10px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .myInterestsCard{
+        display: block;
+        justify-content: center;
+        width: 400px;
+        margin-left: 3.1%;
+        margin-right: 3.1%;
+        margin-bottom: 30px;
+        padding: 10px 10px 10px 10px;
+        box-shadow: 0 1px 10px 1px rgba(0,0,0,0.3);
+    }
+
+    .interestsImage img{
+        display: flex;
+        max-width: 300px;
+        max-height: 250px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .myInterestsData {
+        display: flex;
+        width: 300px;
+        height: auto;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .wrapperMyInterests{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pageHeading {
+        font-size: 50px;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .myInterestsCard{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+    
+    .interestsImage{
+        display: block;
+        max-height: 100%;
+        justify-content: center;
+    }
+
+    .interestsImage img{
+        max-width: 600px;
+        max-height: 600px;
+        margin-left: 50px;
+        margin: 50px 50px;
+    }
+
+    .myInterestsData{
+        display: block;
+        max-height: 100%;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+}
