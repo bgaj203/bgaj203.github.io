@@ -15,11 +15,7 @@ body {
   margin-bottom: 30px;
   width: 100%;
 }
-/* Test class for the nav issue correction */
-/* Seems to work. Figure out a way to make this work on mobile and 
-desktop and build a constency */
-/* Issue when coming without having the nav sticky. Could be because 
-of the sticky + wrapper */
+
 .padding {
   padding-top: 100px;
 }
