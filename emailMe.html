@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="navbar.css"/>
     <link rel="stylesheet" type="text/css" href="contactInfo.css"/>
     <script defer src="functions.js"></script>
+    <script defer src="emailMe.js"></script>
 </head>
 <body onload="main()">
     <div class="header">
@@ -46,7 +47,7 @@
         </div>
     </div>
     <div class="emailMeCard">
-        <form id="emailForm">
+        <form id="emailMeForm">
             <div class="senderInput">
                 <label class="formLabel" for="senderName">Your Name</label>
                 <input type="text" required id="senderName" placeholder="Jon Doe">
@@ -67,8 +68,9 @@
                 <label class="formLabel" for="senderHoneyPot" style='display:none'>Honey Pot</label>
                 <input type="text" required id="senderHoneyPot" placeholder="Don not fill this part" style='display:none'>
             </div>
-            <input class="submitButton" type="submit" value="Send Email">
+            <button onclick="readData()">Submit</button>
         </form>
+        
     </div>   
 </body>
 </html>
