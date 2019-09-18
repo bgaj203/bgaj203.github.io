@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="headder.css"/>
     <link rel="stylesheet" type="text/css" href="navbar.css"/>
     <link rel="stylesheet" type="text/css" href="contactInfo.css"/>
+    <link rel="stylesheet" type="text/css" href="emailMe.css"/>
     <script defer src="functions.js"></script>
     <script defer src="emailMe.js"></script>
 </head>
@@ -42,33 +43,33 @@
     </nav>
 
     <div class="wrapperEmailMe" id="emailMe">
-        <div class="emailMePageHeadding">
-            <strong>Email Me</strong>
-        </div>
+        
+        <strong class="emailMePageHeading">Email Me</strong>
+        
     </div>
     <div class="emailMeCard">
         <form id="emailMeForm">
             <div class="senderInput">
-                <label class="formLabel" for="senderName">Your Name</label>
-                <input type="text" required id="senderName" placeholder="Jon Doe">
+                <!-- <label class="formLabel" for="senderName">Your Name</label> -->
+                <input type="text" required id="senderName" name="senderName" placeholder="Jon Doe">
             </div>
             <div class="senderInput">
-                <label class="formLabel" for="senderEmail">Your Email</label>
-                <input type="email" required id="senderEmail" placeholder="jon@example.com">
+                <!-- <label class="formLabel" for="senderEmail">Your Email</label> -->
+                <input type="email" required id="senderEmail" name="senderEmail" placeholder="jon@example.com">
             </div>
             <div class="senderInput">
-                <label class="formLabel" for="senderPhone">Your Phone</label>
-                <input type="" required id="senderPhone" placeholder="(+64)21123456">
-            </div>
-            <div class="senderInputTextArea">
-                <label class="formLabel" for="senderMessage">Your Message</label>
-                <textarea required id="senderMessage" placeholder="Hi Basi, I am contacting you to discuss about an amazing opportunity..."></textarea>
+                <!-- <label class="formLabel" for="senderPhone">Your Phone</label> -->
+                <input type="text" required id="senderPhone" name="senderPhone" placeholder="(+64)21123456">
             </div>
             <div class="senderInput">
-                <label class="formLabel" for="senderHoneyPot" style='display:none'>Honey Pot</label>
-                <input type="text" required id="senderHoneyPot" placeholder="Don not fill this part" style='display:none'>
+                <!-- <label class="formLabel" for="senderMessage">Your Message</label> -->
+                <textarea required id="senderMessage" name="senderMessage" placeholder="Hi Basi, I am contacting you to discuss about an amazing opportunity..."></textarea>
             </div>
-            <button onclick="readData()">Submit</button>
+            <div class="senderInput">
+                <!-- <label class="formLabel" for="senderHoneyPot" style='display:none'>Honey Pot</label> -->
+                <input type="text" required id="senderHoneyPot" name ="senderHoneyPot" placeholder="Don not fill this part" style='display:none'>
+            </div>
+            <button id="submitButton" onclick="readData()">Send</button>
         </form>
         
     </div>   
