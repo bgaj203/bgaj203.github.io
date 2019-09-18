@@ -62,6 +62,12 @@
         font-family: 'Lexend Deca', sans-serif;
 
     }
+
+    #successText {
+        font-size: 15px;
+        color: #620d63;
+        font-family: 'Lexend Deca', sans-serif;
+    }
 }
 
 @media screen and (max-width: 1000px){
@@ -126,6 +132,12 @@
         background-color: #aeb1b2;
         font-family: 'Lexend Deca', sans-serif;
 
+    }
+
+    #successText {
+        font-size: 15px;
+        color: #620d63;
+        font-family: 'Lexend Deca', sans-serif;
     }
 
 }

@@ -20,7 +20,8 @@ postRequest = () => {
   xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
   xhr.onload = () => {
     if (xhr.status == 200) {
-      console.log('email sent')
+      document.getElementById('emailMeForm').style = 'display: none'
+      document.getElementById('successText').style = 'display: flex'
     }
   }
   xhr.send(JSON.stringify(formDataJSON))
