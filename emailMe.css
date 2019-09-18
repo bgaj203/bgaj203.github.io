@@ -1,0 +1,144 @@
+@media screen and (min-width: 1000px){
+    .wrapperEmailMe {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .emailMePageHeading {
+        font-size: 50px;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .emailMeCard {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .formLabel {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    .senderInput {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .senderInput>input {
+        border: 2px solid #620d63;
+        height: 50px;
+        width: 500px;
+        font-size: 15px;
+        color: #620d63;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .senderInput>textarea {
+        border: 2px solid #620d63;
+        height: 100px;
+        width: 500px;
+        font-size: 15px;
+        color: #620d63;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    #submitButton {
+        border: 2px solid black;
+        height: 50px;
+        width: 100px;
+        margin: 10px 10px 10px 10px;
+        font-size: 15px;
+        color: #620d63;
+        background-color: #aeb1b2;
+        font-family: 'Lexend Deca', sans-serif;
+
+    }
+
+    #successText {
+        font-size: 15px;
+        color: #620d63;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .wrapperEmailMe {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px 10px 10px 10px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .emailMePageHeading {
+        font-size: 50px;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .emailMeCard {
+        display: block;
+        justify-content: center;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        padding: 10px 10px 10px 10px;
+        box-shadow: 0 1px 10px 1px rgba(0,0,0,0.3);
+    }
+
+    .senderInput {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .senderInput>input {
+        border: 2px solid #620d63;
+        height: 50px;
+        width: 350px;
+        font-size: 15px;
+        color: #620d63;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .senderInput>textarea {
+        border: 2px solid #620d63;
+        height: 200px;
+        width: 350px;
+        font-size: 15px;
+        color: #620d63;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    #submitButton {
+        border: 2px solid #620d63;
+        height: 50px;
+        width: 100px;
+        margin: 10px 10px 10px 10px;
+        font-size: 15px;
+        color: #620d63;
+        background-color: #aeb1b2;
+        font-family: 'Lexend Deca', sans-serif;
+
+    }
+
+    #successText {
+        font-size: 15px;
+        color: #620d63;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+}
+
