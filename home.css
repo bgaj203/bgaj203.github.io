@@ -1,101 +1,100 @@
-@media screen and (min-width: 1000px){
-    .wrapperHome {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 30px 30px;
-    }
-    
-    .homePageHeading {
-        font-size: 50px;
-        text-align: center;
-        width: 100%;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    
-    .homeCard {
-        display: flex;
-        /* flex-wrap: wrap; */
-        justify-content: center;
-        max-width: 100%;
-    }
-    
-    .homeImage{
-        display: block;
-        max-height: 100%;
-        justify-content: center;
-    }
-    
-    .homeImage img{
-        max-width: 600px;
-        max-height: 600px;
-        margin: 50px 50px;
-    }
-    
-    .homeData {
-        display: block;
-        max-height: 100%;
-        justify-content: center;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-right: 50px;
-        font-size: 15px;
-    }
+@media screen and (min-width: 1000px) {
+  .wrapperHome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px;
+  }
+
+  .homePageHeading {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .homeCard {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .homeImage {
+    display: block;
+    max-height: 100%;
+    justify-content: center;
+  }
+
+  .homeImage img {
+    max-width: 600px;
+    max-height: 600px;
+    margin: 50px 50px;
+  }
+
+  .homeData {
+    display: block;
+    max-height: 100%;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 50px;
+    font-size: 15px;
+  }
 }
 
 /* mobile styling */
 
 @media screen and (max-width: 1000px) {
-    .wrapperHome {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 10px 10px 10px 10px;
-        padding: 5px 5px 5px 5px;
-    }
+  .wrapperHome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+  }
 
-    .homePageHeading {
-        font-size: 50px;
-        text-align: center;
-        width: 100%;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-    
-    .homeCard {
-        display: block;
-        justify-content: center;
-        width: 400px;
-        margin-bottom: 30px;
-        padding: 10px 10px 10px 10px;
-        margin-left: 3.1%;
-        margin-right: 3.1%;
-        box-shadow: 0 1px 10px 1px rgba(0,0,0,0.3);
-    }
-    
-    .homeImage{
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-    .homeImage img{
-        max-width: 300px;
-        max-height: 250px;
-    }
+  .homePageHeading {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
 
-    .homeData {
-        display: flex;
-        max-width: 300px;
-        height: auto;
-        font-size: 15px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
+  .homeCard {
+    display: block;
+    justify-content: center;
+    width: 400px;
+    margin-bottom: 30px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 3.1%;
+    margin-right: 3.1%;
+    box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.3);
+  }
+
+  .homeImage {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .homeImage img {
+    max-width: 300px;
+    max-height: 200px;
+  }
+
+  .homeData {
+    display: flex;
+    max-width: 300px;
+    height: auto;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
